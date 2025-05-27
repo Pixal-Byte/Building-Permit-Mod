@@ -2,3 +2,5 @@
 
 ### I use it mainly on my mc servers. 
 ### But you can use it too. idk for what but I shouldn't either.
+
+#### P.S: It can be found in the ingridients tab
