@@ -44,8 +44,10 @@ public class PermitMod
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.PERMIT);
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.PERMIT_RED);
+            event.accept(ModItems.PERMIT_BLUE);
+            event.accept(ModItems.PERMIT_YELLOW);
         }
     }
 

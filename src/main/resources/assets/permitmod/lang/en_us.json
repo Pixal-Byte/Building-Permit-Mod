@@ -1,3 +1,5 @@
 {
-  "item.permitmod.permit" : "Building Permit"
+  "item.permitmod.permit_blue" : "Building Permit Tier 1",
+  "item.permitmod.permit_red" : "Building Permit Tier 3",
+  "item.permitmod.permit_yellow" : "Building Permit Tier 2"
 }

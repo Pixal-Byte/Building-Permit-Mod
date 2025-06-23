@@ -11,7 +11,13 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, PermitMod.MOD_ID);
 
-    public static final RegistryObject<Item> PERMIT = ITEMS.register("permit",
+    public static final RegistryObject<Item> PERMIT_BLUE = ITEMS.register("permit_blue",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> PERMIT_RED = ITEMS.register("permit_red",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> PERMIT_YELLOW = ITEMS.register("permit_yellow",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
